@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: beige;
+  position: relative;
+}
+.tituloapp{
+  width: 100vw;
+  height: 60px;
+  text-align: center;
+  position:fixed;
+  background-color: black;
+  z-index: 1;
+  top: 0;
+}
+.loc{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.location-info{
+  position: relative;
+  top: 100px;
+  margin: 10px;
+  width: 100vw;
+}
+.search-box{
+  position: fixed;
+  top: 50px;
+  left:0;
+  right: 0;
+  text-align: center; 
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(27, 27, 27);
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+h3{
+  font-size: 7px;
+}
+
+input{
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  box-shadow: 2px 5px 2px whitesmoke;
+  text-align: center;
+}
+button{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 75px;
+  height: 30px;
+  box-shadow: 2px 5px 2px whitesmoke;
+}
+.list{
+  width: 100vw;
+  display: flex;
+  flex-wrap:wrap;
+  
+}
+.residentinfo{
+  width: 200px;
+  display: flex;
+  justify-content:stretch;
+  flex-wrap: wrap;
+ background-color:rgb(66, 65, 65);
+ border-radius: 10px;
+  margin: 5px;
+}
+.residentinfo div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+img{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+h5{
+  font-size: 10px;
+  text-align: center;
+}
