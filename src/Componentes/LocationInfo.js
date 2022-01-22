@@ -5,13 +5,14 @@ import ResidentList from './ResidentList';
 import SearchBox from './SearchBox';
 
 const LocationInfo = () => {
+
     const [location,setLocation]=useState('');
-    const random= Math.floor(Math.random()*126)+1;
-    const url= `https://rickandmortyapi.com/api/location/${random}`;
+
+    
     useEffect(() =>{
-        axios.get(url)
+        axios.get(`https://rickandmortyapi.com/api/location/${Math.floor(Math.random()*126)+1}`)
         .then(res=> setLocation( res.data));
-    }, []);
+    },[]);
     
     
     return (
