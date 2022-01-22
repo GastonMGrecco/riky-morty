@@ -12,7 +12,7 @@ useEffect(() => {
         <div className="residentinfo">
             <div>
                 <h5>Nombre: {personaje?.name}</h5>
-                <img src={personaje?.image}/>
+                <img src={personaje?.image} alt=''/>
             </div>
             <div>
                 <h5>Status:   {personaje?.status}</h5>
